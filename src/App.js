@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <h2>React Calculator</h2>
-      <input value={value} />
+      <input type='text' value={value} />
 
       {result !== 0 && <div className='display'>{result}</div>}
       <div className='table'>
